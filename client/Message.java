@@ -62,5 +62,11 @@ public class Message implements Serializable{
 		this.numberPlayer2 = numberPlayer2;
 	}
 
+	@Override
+	public String toString() {
+		return "Message [player1=" + player1 + ", player2=" + player2 + ", point1=" + point1 + ", point2=" + point2
+				+ ", numberPlayer2=" + numberPlayer2 + ", isGameRuns=" + isGameRuns + "]";
+	}
+
 	
 }
