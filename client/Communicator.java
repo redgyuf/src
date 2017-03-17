@@ -40,5 +40,9 @@ public class Communicator {
 			e.printStackTrace();
 		}
 	}
+
+	public Message getMsg() {
+		return msg;
+	}
 	
 }
